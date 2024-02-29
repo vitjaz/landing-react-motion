@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  @apply bg-black/[0.96];
+  /* @apply bg-grid-white/[0.02]; */
+  @apply antialiased;
+}
